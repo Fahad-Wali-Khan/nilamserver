@@ -9,9 +9,9 @@ app.use(express.json());
 // ─── DB Connection ───────────────────────────────────────────
 const db = mysql.createConnection({
   host: 'localhost',
-  user: 'your_cpanel_db_user',     // e.g. ztdmgkqq_dbuser
-  password: 'your_db_password',
-  database: 'your_cpanel_db_name'  // e.g. ztdmgkqq_nilamdb
+  user: 'ztdmgkqq_admin',     // e.g. ztdmgkqq_dbuser
+  password: 'Nilam@123',
+  database: 'ztdmgkqq_nilamdb'  // e.g. ztdmgkqq_nilamdb
 });
 
 db.connect(err => {
