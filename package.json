@@ -1,14 +1,12 @@
 {
-  "name": "mysql-node-test",
+  "name": "nilamserver",
   "version": "1.0.0",
-  "description": "Node server test with MySQL",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "mysql2": "^3.6.0"
   }
